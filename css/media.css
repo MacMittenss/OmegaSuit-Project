@@ -1,0 +1,259 @@
+/* Mobile */
+@media(max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+
+    /* Border Utilities */
+    .solutions .row .column .column-1 img,
+    .row .column-right .bg-primary,
+    .blog .row .column .column-1 img,
+    .blog .row .column .bg-secondary,
+    .contact .row .column .column-1 img {
+        border-radius: 12px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .row {
+        gap: 10px;
+    }
+
+    .flex-columns .row .column .column-1 img {
+        border-radius: 9px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .flex-reverse .bg-dark {
+        border-radius: 9px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .icons .flex-items div:nth-child(1) {
+        border-bottom: 1px solid rgba(177, 177, 177, 0.5);
+        border-bottom-width: 25%;
+    }
+
+    .icons .flex-items div:nth-child(3) {
+        border-top: 1px solid rgba(177, 177, 177, 0.5);
+        border-top-width: 50%;
+    }
+
+    .flex-columns .column, .flex-grid .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .flex-columns .row .column .column-1 {
+        margin-top: 5px;
+        border-radius: 12px;
+    }
+
+    .cases .section-header h2 {
+        padding-top: 15px;
+    }
+
+    .team img {
+        width: 70%;
+    }
+
+    .team .section-header h2 {
+        padding-top: 15px;
+    }
+
+    /* Post */
+    .post {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 500px) {
+    .navbar {
+        height: 100px;
+    }
+    
+    .navbar h1 {
+        font-size: 20px;
+    }
+
+    .navbar nav {
+        display: flex;
+        align-items: center;
+        font-size: 0.75rem;
+    }
+
+    .hero {
+        background: url('../images/home/brownband_watch.jpg') no-repeat center center/cover;
+        height: 50vh;
+        position: relative;
+        color: #fef7eb;
+    }
+
+    .hero .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+        padding: 0 10px;
+    }
+
+    .hero .content h1 {
+        font-size: 25px;
+        padding-top: 40px;
+    }
+
+    .hero .content p {
+        font-size: 13px;
+        max-width: 600px;
+        margin: 20px 0 30px;
+        padding-bottom: 20px;
+    }
+
+    .hero .content .btn {
+        padding: 7px 13px;
+        font-size: 13px;
+    }
+
+    .icons .flex-items div h3 {
+        font-size: 17px;
+    }
+
+    .icons .flex-items div p {
+        font-size: 14px;
+    }
+
+    .icons .flex-items div:nth-child(1) {
+        border-bottom: 1px solid rgba(177, 177, 177, 0.5);
+    }
+
+    .icons .flex-items div:nth-child(3) {
+        border-top: 1px solid rgba(177, 177, 177, 0.5);
+    }
+
+    .flex-columns .row {
+        gap: 5px;
+    }
+    /* Border Utilities */
+    .solutions .row .column .column-1 img,
+    .row .column-right .bg-primary,
+    .blog .row .column .column-1 img,
+    .blog .row .column .bg-secondary,
+    .contact .row .column .column-1 img {
+        border-radius: 9px;
+    }
+
+    .solutions .row .column .column-2 {
+        font-size: 14px;
+    }
+
+    .solutions .row .column .column-2 h2 {
+        font-size: 30px;
+    }
+
+    .cases .section-header h4 {
+        font-size: 14.2px;
+    }
+
+    .cases .section-header h2 {
+        font-size: 30px;
+    }
+
+    .blog .row .column .column-2 h2 {
+        font-size: 30px;
+    }
+
+    .blog .row .column .column-2 h4 {
+        font-size: 12px;
+    }
+
+    .blog .row .column .column-2 p {
+        font-size: 14px;
+    }
+
+    .blog .row .column .column-2 a {
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+
+    .team .section-header h4{
+        font-size: 14.2px;
+    }
+
+    .team .section-header h2{
+        font-size: 30px;
+    }
+
+    .contact .row .column .column-2 h2 {
+        font-size: 35px;
+    }
+
+    .post {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post h2 {
+        font-size: 30px;
+    }
+
+    .post .meta i {
+        font-size: 10px;
+    }
+    .post .meta strong {
+        font-size: 18px;
+    }
+
+    .post img {
+        width: 250px;
+        padding-right: 15px;
+    }
+}
+
+@media(max-width: 320px) {
+    .navbar h1 {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar nav {
+        display: flex;
+        align-items: center;
+        font-size: 0.65rem;
+        margin-bottom: 10px;
+        max-width: 270px;
+    }
+
+    .hero .content h1 {
+        font-size: 20px;
+        padding-top: 70px;
+    }
+
+    .hero .content p {
+        font-size: 10px;
+    }
+
+    .hero .content .btn {
+        font-size: 10px;
+        padding: 7px 12px;
+    }
+
+    .post img {
+        width: 200px;
+        padding-right: 15px;
+    }
+}
