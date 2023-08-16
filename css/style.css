@@ -219,6 +219,17 @@ img {
     margin: 0 auto 30px;
 }
 
+/* Blog */
+.flex-columns .row .column .column-1,
+.flex-reverse .bg-dark {
+    margin: 7px;
+    border-radius: 7px;
+}
+
+.flex-columns .row .column .column-1 img {
+    border-radius: 7px;
+}
+
 /* Footer */
 .footer {
     display: flex;

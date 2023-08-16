@@ -108,7 +108,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    gap: 10px;
+    gap: 5px;
 }
 
 .flex-reverse img {
